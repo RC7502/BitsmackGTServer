@@ -1,0 +1,15 @@
+C:\Users\xbl_000\Documents\GitHub\BitsmackGTServer\BitsmackGTServer\bin\Debug\BitsmackGTServer.exe.config
+C:\Users\xbl_000\Documents\GitHub\BitsmackGTServer\BitsmackGTServer\bin\Debug\BitsmackGTServer.exe
+C:\Users\xbl_000\Documents\GitHub\BitsmackGTServer\BitsmackGTServer\bin\Debug\BitsmackGTServer.pdb
+C:\Users\xbl_000\Documents\GitHub\BitsmackGTServer\BitsmackGTServer\bin\Debug\Newtonsoft.Json.dll
+C:\Users\xbl_000\Documents\GitHub\BitsmackGTServer\BitsmackGTServer\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\xbl_000\Documents\GitHub\BitsmackGTServer\BitsmackGTServer\bin\Debug\Newtonsoft.Json.xml
+C:\Users\xbl_000\Documents\GitHub\BitsmackGTServer\BitsmackGTServer\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\xbl_000\Documents\GitHub\BitsmackGTServer\BitsmackGTServer\obj\Debug\BitsmackGTServer.exe
+C:\Users\xbl_000\Documents\GitHub\BitsmackGTServer\BitsmackGTServer\obj\Debug\BitsmackGTServer.pdb
+C:\Users\xbl_000\Documents\GitHub\BitsmackGTServer\BitsmackGTServer\obj\Debug\BitsmackGTServer.csprojResolveAssemblyReference.cache
+C:\Users\xbl_000\Documents\GitHub\BitsmackGTServer\BitsmackGTServer\bin\Debug\Fitbit.dll
+C:\Users\xbl_000\Documents\GitHub\BitsmackGTServer\BitsmackGTServer\bin\Debug\RestSharp.dll
+C:\Users\xbl_000\Documents\GitHub\BitsmackGTServer\BitsmackGTServer\bin\Debug\Fitbit.pdb
+C:\Users\xbl_000\Documents\GitHub\BitsmackGTServer\BitsmackGTServer\bin\Debug\log4net.xml
+C:\Users\xbl_000\Documents\GitHub\BitsmackGTServer\BitsmackGTServer\bin\Debug\RestSharp.xml
