@@ -19,18 +19,13 @@ namespace BitsmackGTServer
         {
             int refreshInterval = 15;
             var taskList = new List<Task<bool>>();
-            var pedometerService = new PedometerService();
+            var taskService = new HabiticaService();
+            taskService.FirstRun();
             var run = true;
             while (run)
             {
-
-                var task1 = pedometerService.Update();
-                taskList.Add(task1);
-
-                Task.WaitAll(taskList.ToArray());
-                if (taskList.Any(x => x.Result == false))
-                    refreshInterval = 60;
-
+                var success = taskService.Update(refreshInterval);
+                refreshInterval = success ? 20 : refreshInterval + 60;
                 Console.Write("Next update at {0} {1}", DateTime.Now.AddMinutes(refreshInterval), Environment.NewLine);
                 Thread.Sleep(60000 * refreshInterval);
                 //run = false;

@@ -1,16 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.15
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitsmackGTServer", "BitsmackGTServer\BitsmackGTServer.csproj", "{38DC35E5-CF17-428B-8B9B-0BD2FB5ECCE3}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{8D3881E5-6B13-4759-A586-AC5CFAD2CF0B}"
-	ProjectSection(SolutionItems) = preProject
-		.nuget\NuGet.Config = .nuget\NuGet.Config
-		.nuget\NuGet.exe = .nuget\NuGet.exe
-		.nuget\NuGet.targets = .nuget\NuGet.targets
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HabitRPG.NET", "..\HabitRPG.NET\HabitRPG.NET\HabitRPG.NET.csproj", "{0D1BACED-5116-4BE6-977E-99A1AEC98F8D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fitbit", "..\Fitbit.NET\Fitbit\Fitbit.csproj", "{D2C08C58-269F-45DE-8A25-C5492BC625F8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toodledo.Client", "..\bitsmack-fullcalendar\toodledo-api-master\Toodledo.Client\Toodledo.Client.csproj", "{C1CDC4C6-EEE3-4CD3-B76D-5F3927E1ECA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toodledo.Model", "..\bitsmack-fullcalendar\toodledo-api-master\Toodledo.Model\Toodledo.Model.csproj", "{C6ED4620-9232-4070-9B68-6444A3CAE23E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,12 +24,24 @@ Global
 		{38DC35E5-CF17-428B-8B9B-0BD2FB5ECCE3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{38DC35E5-CF17-428B-8B9B-0BD2FB5ECCE3}.TrialRelease|Any CPU.ActiveCfg = Release|Any CPU
 		{38DC35E5-CF17-428B-8B9B-0BD2FB5ECCE3}.TrialRelease|Any CPU.Build.0 = Release|Any CPU
-		{D2C08C58-269F-45DE-8A25-C5492BC625F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D2C08C58-269F-45DE-8A25-C5492BC625F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D2C08C58-269F-45DE-8A25-C5492BC625F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D2C08C58-269F-45DE-8A25-C5492BC625F8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D2C08C58-269F-45DE-8A25-C5492BC625F8}.TrialRelease|Any CPU.ActiveCfg = TrialRelease|Any CPU
-		{D2C08C58-269F-45DE-8A25-C5492BC625F8}.TrialRelease|Any CPU.Build.0 = TrialRelease|Any CPU
+		{0D1BACED-5116-4BE6-977E-99A1AEC98F8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D1BACED-5116-4BE6-977E-99A1AEC98F8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D1BACED-5116-4BE6-977E-99A1AEC98F8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D1BACED-5116-4BE6-977E-99A1AEC98F8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D1BACED-5116-4BE6-977E-99A1AEC98F8D}.TrialRelease|Any CPU.ActiveCfg = Release|Any CPU
+		{0D1BACED-5116-4BE6-977E-99A1AEC98F8D}.TrialRelease|Any CPU.Build.0 = Release|Any CPU
+		{C1CDC4C6-EEE3-4CD3-B76D-5F3927E1ECA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1CDC4C6-EEE3-4CD3-B76D-5F3927E1ECA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1CDC4C6-EEE3-4CD3-B76D-5F3927E1ECA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1CDC4C6-EEE3-4CD3-B76D-5F3927E1ECA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1CDC4C6-EEE3-4CD3-B76D-5F3927E1ECA1}.TrialRelease|Any CPU.ActiveCfg = Release|Any CPU
+		{C1CDC4C6-EEE3-4CD3-B76D-5F3927E1ECA1}.TrialRelease|Any CPU.Build.0 = Release|Any CPU
+		{C6ED4620-9232-4070-9B68-6444A3CAE23E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6ED4620-9232-4070-9B68-6444A3CAE23E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6ED4620-9232-4070-9B68-6444A3CAE23E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6ED4620-9232-4070-9B68-6444A3CAE23E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6ED4620-9232-4070-9B68-6444A3CAE23E}.TrialRelease|Any CPU.ActiveCfg = Release|Any CPU
+		{C6ED4620-9232-4070-9B68-6444A3CAE23E}.TrialRelease|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
